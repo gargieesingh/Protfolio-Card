@@ -1,3 +1,6 @@
+*{
+    border: 1px solid black;
+}
 .wrapper{
     background-color:bisque;
     display: flex;
@@ -55,8 +58,18 @@
     justify-content: center;
     align-items: center;
 }
+#Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: vh;
 
+    border: 2px solid red;
+    position: absolute;
+}
 .SocialMedia{
+    margin-top: 20vh;
     width:350px;
     height:40px;
     border: 0px  black;
@@ -67,7 +80,6 @@
     align-content: center;
     gap: 10px;
 }
-
 .buttons{
     width: 40px;
     height: 40px;
