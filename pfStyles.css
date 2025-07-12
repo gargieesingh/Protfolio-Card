@@ -1,0 +1,95 @@
+.wrapper{
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#outerBox{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    border-style:unset;
+    border-top: 10cap;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 4px 8px 4px rgba(0 , 0 , 0 , 0.5);
+}
+
+#Blue{
+    height: 120px;
+    width: 350px;
+    border-radius: 35px 35px 0 0;
+    background-color: rgb(30, 87, 125);
+    
+}
+#photo{
+    height: 130px;
+    width: 130px;
+    border-style: double;
+    border-color: rgb(7, 111, 237);
+    border-width: 5px;
+    position:absolute;
+    top: 50px;
+    border-radius: 100px;
+    background-color: rgb(235, 220, 220);
+}
+
+#photo img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+#white{
+    height: 230px;
+    width: 350px;
+    border-radius: 0 0 35px 35px;
+    background-color: rgb(244, 247, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialMedia{
+    width:350px;
+    height:40px;
+    border: 0px  black;
+    background-color: rgb(253, 247, 247);
+    transform: translateY(-10px);
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 10px;
+}
+
+.buttons{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: aliceblue;
+    border-style: none;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.buttons img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    transform:translate(-6.5px, -0.5px);
+}
+#Insta{
+    margin-right: 9px;
+}
+#Twitter{
+    margin-right: 9px;
+}
