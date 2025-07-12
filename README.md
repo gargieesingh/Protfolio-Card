@@ -3,4 +3,4 @@
 <br>
 Protfolio Card
 <br>
-No Javascript
+<h6>(No Javascript)</h6>
